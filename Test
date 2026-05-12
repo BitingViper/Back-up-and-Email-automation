@@ -4,9 +4,9 @@ import getpass
 HOST = "smtp.gmail.com"
 PORT = 587
 
-FROM_EMAIL = "yyruh84@gmail.com"
-TO_EMAIL = "yyruh84@gmail.com"
-PASSWORD = "zles ighi hmdq awal"
+FROM_EMAIL = "<Insert ur email>"
+TO_EMAIL = "<recepient>"
+PASSWORD = "<app password>"
 
 MESSAGE = """Subject: Hello from Python
 Test email sent from Python"""
