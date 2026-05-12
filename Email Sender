@@ -1,16 +1,24 @@
 import smtplib
 import getpass
+from datetime import date
 
+#Date
+today = date.today()
+
+# SMTP server configuration
 HOST = "smtp.gmail.com"
 PORT = 587
 
-FROM_EMAIL = "<Insert ur email>"
-TO_EMAIL = "<recipient>"
-PASSWORD = "<app password>"
+# Email Configuration
+FROM_EMAIL = "yyruh84@gmail.com"
+TO_EMAIL = "yyruh84@gmail.com"
+PASSWORD = "zles ighi hmdq awal"
 
-MESSAGE = """<Subject:>
-<body>"""
+# Message to be sent
+MESSAGE = f"""Subject: Hello from Python {today}
+Test email sent from Python"""
 
+# Establishing a connection to the SMTP server
 smtp = smtplib.SMTP(HOST, PORT)
 
 status_code, response = smtp.ehlo()
