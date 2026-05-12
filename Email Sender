@@ -8,8 +8,8 @@ FROM_EMAIL = "<Insert ur email>"
 TO_EMAIL = "<recepient>"
 PASSWORD = "<app password>"
 
-MESSAGE = """Subject: Hello from Python
-Test email sent from Python"""
+MESSAGE = """<Subject:>
+<body>"""
 
 smtp = smtplib.SMTP(HOST, PORT)
 
