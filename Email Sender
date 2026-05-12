@@ -10,13 +10,13 @@ HOST = "smtp.gmail.com"
 PORT = 587
 
 # Email Configuration
-FROM_EMAIL = "yyruh84@gmail.com"
-TO_EMAIL = "yyruh84@gmail.com"
-PASSWORD = "zles ighi hmdq awal"
+FROM_EMAIL = "<your email address>"
+TO_EMAIL = "<receiver email address>"
+PASSWORD = "<app password>"
 
 # Message to be sent
-MESSAGE = f"""Subject: Hello from Python {today}
-Test email sent from Python"""
+MESSAGE = f"""<Subject: Subject  {today}
+<body of the email>"""
 
 # Establishing a connection to the SMTP server
 smtp = smtplib.SMTP(HOST, PORT)
